@@ -21,5 +21,10 @@
   "bugs": {
     "url": "https://github.com/Ddoty89/blog-with-mongoose/issues"
   },
-  "homepage": "https://github.com/Ddoty89/blog-with-mongoose#readme"
+  "homepage": "https://github.com/Ddoty89/blog-with-mongoose#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongo": "^0.1.0",
+    "mongoose": "^4.13.2"
+  }
 }
