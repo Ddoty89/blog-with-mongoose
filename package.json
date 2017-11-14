@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/Ddoty89/blog-with-mongoose#readme",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "express": "^4.16.2",
     "mongo": "^0.1.0",
     "mongoose": "^4.13.2"
