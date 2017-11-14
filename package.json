@@ -1,0 +1,25 @@
+{
+  "name": "blog-with-mongoose",
+  "version": "1.0.0",
+  "description": "Practice with mogoose with blog project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ddoty89/blog-with-mongoose.git"
+  },
+  "keywords": [
+    "express",
+    "mongo",
+    "mongoose"
+  ],
+  "author": "Ddoty89",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ddoty89/blog-with-mongoose/issues"
+  },
+  "homepage": "https://github.com/Ddoty89/blog-with-mongoose#readme"
+}
