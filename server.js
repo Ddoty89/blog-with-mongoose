@@ -6,16 +6,18 @@ const app = express();
 
 app.use(bodyParser.json());
 
-app.get('/posts', function(req, res) {
+const blogPost = require('./layout')
 
+app.get('/posts', function(req, res) {
+	blogPost.find()
 })
 
 app.get('/posts/:id', function(req, res) {
-
+	blogPost.findById()
 })
 
 app.post('/posts', function(req, res) {
-
+	blogPost.
 })
 
 app.put('/posts/:id', function(req, res) {

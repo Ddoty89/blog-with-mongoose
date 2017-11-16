@@ -1,8 +1,12 @@
 const mongoose = require('mongoose');
 
 const blogPostSchema = mongoose.Schema({
-      "title": "some title",
-      "content": "a bunch of amazing words",
-      "author": "Sarah Clarke",
-      "created": "1481322758429"
+      "title": {type: String},
+      "content": {type: String},
+      "author": {type: String},
+      "created": {type: String}
   })
+
+const blogPost = mongoose.model{'blogPost', blogPostSchema}
+
+module.export = {blogPost};
